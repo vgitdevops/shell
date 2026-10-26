@@ -1,5 +1,8 @@
 #!/bin/bash
-echo "Script started"
-DATE=$(date)
-echo "Hello, script executed at: $DATE"
-echo "Script completed"
+# This is for printing system date
+
+# Store the current date and time in a variable
+DATE="$(date)"
+
+# Display the message
+echo "Hello, this script is executed at timestamp: $DATE"
